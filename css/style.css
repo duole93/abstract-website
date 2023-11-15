@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+}
+
+.container{
+    display: flex;
+    width:960px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: black;
+    color: #fff;
+}
+
+header .container{
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero{
+background-color: #dadbf1;
+}
+.hero .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding:50px;
+}
+
+.search-container{
+    display:flex;
+}
